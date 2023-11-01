@@ -9,7 +9,7 @@ const publicRouters =[
     { path : '/', component: Home },
     { path : '/cart', component: Cart },
     { path : '/cataccessories', component: CatAccessories },
-    { path : '/login', component: Login },
+    { path : '/login', component: Login , layout: null},
     { path : '/signup', component: SignUp, layout: null },
     { path : '/productpage', component: ProductPage },
 ]

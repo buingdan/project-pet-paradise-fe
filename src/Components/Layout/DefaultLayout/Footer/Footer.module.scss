@@ -1,0 +1,166 @@
+#footer {
+  height: 662px;
+  width: 100%;
+  padding: 110px 100px 0 100px;
+  border: 1px solid red;
+  .infor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 182px;
+    margin-bottom: 52px;
+    .logo {
+      width: 375px;
+      height: 102px;
+      img {
+        height: 100%;
+        margin-bottom: 27px;
+      }
+      p {
+        color: #00575c;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .order {
+      width: 190px;
+      height: 182px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+      button {
+        width: 138px;
+        height: 35px;
+        background-color: #00575c;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    .shipping {
+      width: 170px;
+      height: 182px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      p {
+        margin-top: 22px;
+        font-size: 13px;
+      }
+    }
+    .shopping-app {
+      width: 170px;
+      height: 182px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    height: 163px;
+    width: 100%;
+    .subcribe {
+      width: 375px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 14px;
+      }
+      p {
+        font-size: 13px;
+        margin-bottom: 23px;
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        width: 375px;
+        height: 53px;
+        border-radius: 100px;
+        border: 0.4px solid #00575c;
+        padding-left: 26px;
+        input {
+          width: 235px;
+          height: 48px;
+          border: none;
+        }
+        button {
+          height: 48px;
+          width: 109px;
+          border-radius: 100px;
+          border: none;
+          color: white;
+          background-color: #00575c;
+        }
+      }
+    }
+    .about-us {
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 13px;
+        margin-bottom: 19px;
+      }
+    }
+    .social-media {
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+      .icon{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 23px;
+        span{
+            color: #00575c;
+        }
+      }
+      p{
+        font-size: 13px;
+        margin-bottom: 15px;
+      }
+    }
+    .policies{
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 22px;
+          }
+          p {
+            font-size: 13px;
+            margin-bottom: 19px;
+          }
+    }
+  }
+  .coppyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #00575c;
+    width: 100%;
+    height: 50px;
+  }
+}
