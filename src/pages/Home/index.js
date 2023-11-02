@@ -1,4 +1,4 @@
-import { ArrowRightOutlined } from "@ant-design/icons"
+import { ArrowRightOutlined, LeftOutlined, RightOutlined, UpOutlined } from "@ant-design/icons"
 import classes from "./Home.module.scss"
 import stuff1 from "../../assets/images/stuff1.png"
 import stuff2 from "../../assets/images/stuff2.png"
@@ -13,6 +13,7 @@ import stuff8 from "../../assets/images/stuff8.png"
 function Home() {
     return (
         <div className={classes["wrapper"]}>
+            <button className={classes["scroll-up"]}><UpOutlined /></button>
             <div className={classes["banner"]}>
                 <p>CAT SUPPLIES </p>
                 <h2>SALE UP TO 50%</h2>
@@ -82,6 +83,8 @@ function Home() {
                     <li className={classes["card"]}></li>
 
                 </ul>
+                <button className={classes["prev-Slide"]}><LeftOutlined /></button>
+                <button className={classes["next-Slide"]}><RightOutlined /></button>
             </div>
             <div className={classes["arivals"]}>
                 <div className={classes["tittle"]}>
@@ -95,6 +98,8 @@ function Home() {
                     <li className={classes["card"]}></li>
 
                 </ul>
+                <button className={classes["prev-Slide"]}><LeftOutlined /></button>
+                <button className={classes["next-Slide"]}><RightOutlined /></button>
             </div>
             <div className={classes["best-selling"]}>
                 <div className={classes["tittle"]}>
@@ -106,8 +111,9 @@ function Home() {
                     <li className={classes["card"]}></li>
                     <li className={classes["card"]}></li>
                     <li className={classes["card"]}></li>
-
                 </ul>
+                <button className={classes["prev-Slide"]}><LeftOutlined /></button>
+                <button className={classes["next-Slide"]}><RightOutlined /></button>
             </div>
         </div>
     );
