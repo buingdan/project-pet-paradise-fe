@@ -2,7 +2,7 @@
   height: 662px;
   width: 100%;
   padding: 110px 100px 0 100px;
-  border: 1px solid red;
+  border-top: 2px solid #00575c;
   .infor {
     display: flex;
     justify-content: space-between;
@@ -114,6 +114,7 @@
       }
     }
     .about-us {
+      width: 190px;
       h3 {
         font-size: 18px;
         font-weight: 600;
@@ -125,6 +126,7 @@
       }
     }
     .social-media {
+      width: 170px;
       h3 {
         font-size: 18px;
         font-weight: 600;
@@ -132,10 +134,10 @@
       }
       .icon{
         display: flex;
-        justify-content: space-between;
         margin-bottom: 23px;
         span{
             color: #00575c;
+            margin-right: 21px;
         }
       }
       p{
@@ -144,6 +146,7 @@
       }
     }
     .policies{
+      margin-right: 44px;
         h3 {
             font-size: 18px;
             font-weight: 600;
