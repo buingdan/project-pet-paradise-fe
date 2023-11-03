@@ -2,7 +2,7 @@
   height: 174px;
   padding: 58px 100px 0 100px;
   width: 100%;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   .wrapper {
@@ -37,6 +37,7 @@
           border: none;
           font-size: 14px;
           color: #000;
+          outline: none;
         }
         button {
           width: 18%;
@@ -65,10 +66,116 @@
         align-items: center;
         height: 100%;
         li {
+          height: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          position: relative;
           a {
+            width: 100%;
             font-size: 15px;
             color: black;
-            font-weight: 400;
+            font-weight: 600;
+            &:hover {
+              color: #00575c;
+            }
+          }
+          span {
+            font-size: 11px;
+          }
+          .submenu-dogs {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            display: none;
+            li {
+              width: 240px;
+              height: 35px;
+              background-color: #fff;
+              border-bottom: #000;
+              padding-left: 15px;
+              &:hover {
+                background-color:#00575c;
+              }
+              &:hover a{
+                color: #fff;
+              }
+            }
+          }
+          &:hover .submenu-dogs {
+            display: block;
+          }
+
+          .submenu-cats {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            display: none;
+            li {
+              width: 170px;
+              height: 35px;
+              background-color: #fff;
+              border-bottom: #000;
+              padding-left: 15px;
+              &:hover {
+                background-color:#00575c;
+              }
+              &:hover a{
+                color: #fff;
+              }
+
+            }
+          }
+          &:hover .submenu-cats {
+            display: block;
+          }
+          .submenu-accessories {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            display: none;
+            li {
+              width: 170px;
+              height: 35px;
+              background-color: #fff;
+              border-bottom: #000;
+              padding-left: 15px;
+              &:hover {
+                background-color:#00575c;
+              }
+              &:hover a{
+                color: #fff;
+              }
+            }
+          }
+          &:hover .submenu-accessories {
+            display: block;
+          }
+          .submenu-foods {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            display: none;
+            li {
+              width: 210px;
+              height: 35px;
+              background-color: #fff;
+              border-bottom: #000;
+              padding-left: 15px;
+              &:hover {
+                background-color:#00575c;
+              }
+              &:hover a{
+                color: #fff;
+              }
+            }
+          }
+          &:hover .submenu-foods {
+            display: block;
           }
         }
       }

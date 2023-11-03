@@ -9,66 +9,62 @@ function Footer() {
                 <div className={classes["infor"]}>
                     <div className={classes["logo"]} >
                         <img src={logo} />
-                        <p>We Have Everything For Cat Here!</p>
+                        <p>Chúng tôi có mọi thứ cho thú cưng ở đây!</p>
                     </div>
                     <div className={classes["subcribe"]} >
-                        <h3>Subscribe To Our Newsletter</h3>
-                        <p>New blogs about cats every week!</p>
+                        <h3>Theo dõi bản tin của chúng tôi</h3>
+                        <p>Blog mới về thú cưng mỗi tuần!</p>
                         <div className={classes["search"]}>
-                            <input placeholder="YOUR EMAIL ADDRESS" />
-                            <button>SUBCRIBE</button>
+                            <input placeholder="ĐỊA CHỈ EMAIL CỦA BẠN..." />
+                            <button>ĐĂNG KÝ</button>
                         </div>
                     </div>
                 </div>
                 <div className={classes["intro"]} >
                     <div className={classes["order"]}>
-                        <h3>Where's my order?</h3>
-                        <button>TRACK ORDER</button>
-                        <p>Please note, it may take longer
-                            than usual to fulfill orders due
-                            to the impacts of COVID-19.</p>
+                        <h3>Tôi đặt hàng ở đâu?</h3>
+                        <button>THEO DÕI ĐƠN </button>
+                        <p>Xin lưu ý, có thể mất nhiều thời gian hơn bình thường để hoàn thành các đơn hàng do ảnh hưởng của COVID-19.</p>
                     </div>
                     <div className={classes["about-us"]}>
-                        <h3>Our Company</h3>
-                        <p>About us</p>
-                        <p>Careers</p>
-                        <p>Contact</p>
-                        <p>Store locations</p>
+                        <h3>Công ty của chúng tôi</h3>
+                        <p>Giới thiệu</p>
+                        <p>Nghề nghiẹp</p>
+                        <p>Liên lạc</p>
+                        <p>Trụ sở</p>
                     </div>
                 </div>
                 <div className={classes["social"]}>
                     <div className={classes["shipping"]}>
                         <h3>Shipping</h3>
-                        <p>About Free Shipping</p>
-                        <p>Shipping Information</p>
+                        <p>Thông tin về miễn phí ship</p>
+                        <p>Thông tin về ship</p>
                     </div>
                     <div className={classes["social-media"]}>
-                        <h3>Social Media</h3>
+                        <h3>Mạng xã hội</h3>
                         <div className={classes["icon"]}>
                             <FacebookOutlined />
                             <InstagramOutlined />
                             <YoutubeOutlined />
                             <TwitterOutlined />
                         </div>
-                        <p>Show us your cat with:</p>
+                        <p>Cho chúng tôi thấy thú cưng của bạn:</p>
                         <p>#petparadiseshop</p>
                         <p>#thepetparadiseshop</p>
                     </div>
                 </div>
                 <div className={classes["outro"]}>
                     <div className={classes["shopping-app"]}>
-                        <h3>Shopping App</h3>
-                        <p>Try our View in Your Room
-                            feature, manage registries
-                            and save payment info.
+                        <h3>Mua sắm qua APP</h3>
+                        <p>THãy dùng thử tính năng Xem trong phòng của bạn, quản lý đăng ký và lưu thông tin thanh toán.
                         </p>
                         <img src={appstore} />
                     </div>
                     <div className={classes["policies"]}>
-                        <h3>Shipping Policy</h3>
-                        <p>Refund Policy</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
+                        <h3>Chính sách về ship</h3>
+                        <p>Chính sách hoàn tiền</p>
+                        <p>Chính sách sự riêng tư</p>
+                        <p>Điều khoản dịch vụ</p>
                     </div>
                 </div>
             </div>

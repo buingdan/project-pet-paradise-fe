@@ -15,65 +15,65 @@ function Home() {
         <div className={classes["wrapper"]}>
             <button className={classes["scroll-up"]}><UpOutlined /></button>
             <div className={classes["banner"]}>
-                <p>CAT SUPPLIES </p>
-                <h2>SALE UP TO 50%</h2>
-                <button>Explore Now <ArrowRightOutlined /></button>
+                <p>CUNG CẤP THÚ CƯNG </p>
+                <h2>GIẢM GIÁ LÊN ĐẾN 50%</h2>
+                <button>KHÁM PHÁ NGAY <ArrowRightOutlined /></button>
             </div>
             <div className={classes["stuff"]}>
                 <ul>
                     <li className={classes["list"]}>
                         <img src={stuff1} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Food</p>
+                            <p>Hạt</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff2} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Accessories</p>
+                            <p>Bàn cào</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff3} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Furniture</p>
+                            <p>Đồ chơi</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff4} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Proof Home</p>
+                            <p>Cát vệ sinh</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff5} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Feeder</p>
+                            <p>Pate</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff6} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Little Boxes</p>
+                            <p>Khay vệ sinh</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff7} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Grooming</p>
+                            <p>Balo</p>
                         </div>
                     </li>
                     <li className={classes["list"]}>
                         <img src={stuff8} />
                         <div className={classes["list-block"]}>
-                            <p>Cat Houses</p>
+                            <p>Chuồng</p>
                         </div>
                     </li>
                 </ul>
             </div>
             <div className={classes["slider"]}>
                 <div className={classes["tittle"]}>
-                    <p>Deals Of The Month</p>
+                    <p>DANH SÁCH CÚN</p>
                 </div>
                 <ul>
                     <li className={classes["card"]}></li>
@@ -86,9 +86,9 @@ function Home() {
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
                 <button className={classes["next-Slide"]}><RightOutlined /></button>
             </div>
-            <div className={classes["arivals"]}>
+            <div className={classes["slider"]}>
                 <div className={classes["tittle"]}>
-                    <p>New Arrivals</p>
+                    <p>DANH SÁCH MÈO</p>
                 </div>
                 <ul>
                     <li className={classes["card"]}></li>
@@ -101,9 +101,23 @@ function Home() {
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
                 <button className={classes["next-Slide"]}><RightOutlined /></button>
             </div>
-            <div className={classes["best-selling"]}>
+            <div className={classes["slider"]}>
                 <div className={classes["tittle"]}>
-                    <p>Best-selling</p>
+                    <p>PHỤ KIỆN</p>
+                </div>
+                <ul>
+                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}></li>
+                </ul>
+                <button className={classes["prev-Slide"]}><LeftOutlined /></button>
+                <button className={classes["next-Slide"]}><RightOutlined /></button>
+            </div>
+            <div className={classes["slider"]}>
+                <div className={classes["tittle"]}>
+                    <p>THỰC PHẨM</p>
                 </div>
                 <ul>
                     <li className={classes["card"]}></li>
