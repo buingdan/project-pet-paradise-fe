@@ -55,7 +55,7 @@ function Footer() {
                 </div>
                 <div className={classes["outro"]}>
                     <div className={classes["shopping-app"]}>
-                        <h3>Mua sắm qua APP</h3>
+                        <h3>Mua sắm qua App</h3>
                         <p>THãy dùng thử tính năng Xem trong phòng của bạn, quản lý đăng ký và lưu thông tin thanh toán.
                         </p>
                         <img src={appstore} />
