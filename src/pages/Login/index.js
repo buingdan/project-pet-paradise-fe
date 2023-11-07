@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import classes from "./Login.module.scss"
 import logo from "../../assets/images/logo.png"
 import bglogin from "../../assets/images/bglogin.png"
@@ -18,8 +19,8 @@ function Login() {
                     <div className={classes["form"]}>
                         <p>Đăng nhập</p>
                         <div className={classes["signup"]}>
-                            <p>Tin về Pet Paradise Shop</p>
-                            <a href="#">Đăng ký</a>
+                            <p>Bạn chưa có tài khoản?</p>
+                            <a href="#" ><Link to="/signup">Đăng ký</Link></a>
                         </div>
                         <input className={classes["account"]} placeholder="Phone number/ Username/ Email" />
                         <input className={classes["password"]} placeholder="Password" />

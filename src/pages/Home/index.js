@@ -1,3 +1,4 @@
+import { Rate } from 'antd';
 import { ArrowRightOutlined, LeftOutlined, RightOutlined, UpOutlined } from "@ant-design/icons"
 import classes from "./Home.module.scss"
 import stuff1 from "../../assets/images/stuff1.png"
@@ -8,6 +9,8 @@ import stuff5 from "../../assets/images/stuff5.png"
 import stuff6 from "../../assets/images/stuff6.png"
 import stuff7 from "../../assets/images/stuff7.png"
 import stuff8 from "../../assets/images/stuff8.png"
+import product from "../../assets/images/product.png"
+
 
 
 function Home() {
@@ -76,11 +79,61 @@ function Home() {
                     <p>DANH SÁCH CÚN</p>
                 </div>
                 <ul>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
 
                 </ul>
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
@@ -91,11 +144,61 @@ function Home() {
                     <p>DANH SÁCH MÈO</p>
                 </div>
                 <ul>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
 
                 </ul>
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
@@ -106,11 +209,61 @@ function Home() {
                     <p>PHỤ KIỆN</p>
                 </div>
                 <ul>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
                 <button className={classes["next-Slide"]}><RightOutlined /></button>
@@ -120,11 +273,61 @@ function Home() {
                     <p>THỰC PHẨM</p>
                 </div>
                 <ul>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
-                    <li className={classes["card"]}></li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li className={classes["card"]}>
+                        <img src={product} />
+                        <div className={classes["card-detail"]}>
+                            <p>New Petkit Pura MAX</p>
+                            <Rate allowHalf defaultValue={2.5} />
+                            <div className={classes["price"]}>
+                                <p>20000000</p>
+                                <span>₫</span>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <button className={classes["prev-Slide"]}><LeftOutlined /></button>
                 <button className={classes["next-Slide"]}><RightOutlined /></button>

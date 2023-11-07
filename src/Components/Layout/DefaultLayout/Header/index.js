@@ -1,7 +1,24 @@
+import React, { useState } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 import { SearchOutlined, UserOutlined, ShoppingCartOutlined, DownOutlined } from "@ant-design/icons"
 import classes from "./Header.module.scss"
 import logo from "../../../../assets/images/logo.png"
 function Header() {
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const navigate = useNavigate();
+    const [showUserMenu, setShowUserMenu] = useState(false);
+    const handleUserIconClick = () => {
+        // if (isLoggedIn) {
+            
+        // }
+        setShowUserMenu(!showUserMenu);
+    };
+    const handleLogoutClick = () => {
+        console.log("Đăng xuất");
+        setIsLoggedIn(false);
+        setShowUserMenu(false);
+    };
+
     return (
         <div id={classes["header"]}>
             <div className={classes["wrapper"]}>
@@ -15,7 +32,13 @@ function Header() {
                         <button>TÌM KIẾM</button>
                     </div>
                     <div className={classes["icon"]}>
-                        <UserOutlined />
+                        <UserOutlined onClick={handleUserIconClick} />
+                        {showUserMenu && (
+                            <ul className={classes["user-menu"]}>
+                                <li><a href="#"><Link to="/login">Đăng nhập</Link></a></li>
+                                <li onClick={handleLogoutClick}><a href='#'><Link to="/signup">Đăng xuất</Link></a></li>
+                            </ul>
+                        )}
                         <ShoppingCartOutlined />
                     </div>
                 </div>
@@ -25,19 +48,19 @@ function Header() {
                         <li>
                             <a href="#">DANH MỤC CÚN <DownOutlined /></a>
                             <ul className={classes["submenu-dogs"]}>
-                                    <li><a href="#">CHÓ ALASKA MALAMUTE</a></li>
-                                    <li><a href="#">CHÓ BẮC KINH</a></li>
-                                    <li><a href="#">CHÓ BEAGLE</a></li>
-                                    <li><a href="#">CHÓ BICHON</a></li>
-                                    <li><a href="#">CHÓ BULL PHÁP</a></li>
-                                    <li><a href="#">CHÓ CORGI</a></li>
-                                    <li><a href="#">CHÓ GOLDEN RETRIEVER</a></li>
-                                    <li><a href="#">CHÓ HUSKY SIBERIAN</a></li>
-                                    <li><a href="#">CHÓ LẠP XƯỞNG</a></li>
-                                    <li><a href="#">CHÓ PHỐC SÓC - POMERANIAN</a></li>
-                                    <li><a href="#">CHÓ POODLE</a></li>
-                                    <li><a href="#">CHÓ PUG</a></li>
-                                    <li><a href="#">CHÓ SAMOYED</a></li>
+                                <li><a href="#" >CHÓ ALASKA MALAMUTE</a></li>
+                                <li><a href="#">CHÓ BẮC KINH</a></li>
+                                <li><a href="#">CHÓ BEAGLE</a></li>
+                                <li><a href="#">CHÓ BICHON</a></li>
+                                <li><a href="#">CHÓ BULL PHÁP</a></li>
+                                <li><a href="#">CHÓ CORGI</a></li>
+                                <li><a href="#">CHÓ GOLDEN RETRIEVER</a></li>
+                                <li><a href="#">CHÓ HUSKY SIBERIAN</a></li>
+                                <li><a href="#">CHÓ LẠP XƯỞNG</a></li>
+                                <li><a href="#">CHÓ PHỐC SÓC - POMERANIAN</a></li>
+                                <li><a href="#">CHÓ POODLE</a></li>
+                                <li><a href="#">CHÓ PUG</a></li>
+                                <li><a href="#">CHÓ SAMOYED</a></li>
                             </ul>
                         </li>
                         <li>

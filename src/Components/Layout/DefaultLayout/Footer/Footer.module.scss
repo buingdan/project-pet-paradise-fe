@@ -1,25 +1,25 @@
 #footer {
-  height: 662px;
+  height: 45.972vw;
   width: 100%;
-  padding: 110px 100px 0 100px;
-  border-top: 2px solid #00575c;
+  padding: 7.639vw 6.944vw 0 6.944vw;
+  border-top: 0.139vw solid #00575c;
   .content {
-    height: 506px;
+    height: 35.139vw;
     display: flex;
     justify-content: space-between;
     .infor {
-      width: 375px;
+      width: 26.042vw;
       .logo {
         width: 100%;
-        height: 182px;
-        margin-bottom: 52px;
+        height: 12.639vw;
+        margin-bottom: 3.611vw;
         img {
-          height: 102px;
-          margin-bottom: 27px;
+          height: 7.083vw;
+          margin-bottom: 1.875vw;
         }
         p {
           color: #00575c;
-          font-size: 20px;
+          font-size: 1.389vw;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
@@ -28,148 +28,150 @@
       .subcribe {
         width: 100%;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 14px;
+          margin-bottom: 0.972vw;
         }
         p {
-          font-size: 13px;
-          margin-bottom: 23px;
+          font-size: 0.903vw;
+          margin-bottom: 1.597vw;
         }
         .search {
           display: flex;
           align-items: center;
           width: 100%;
-          height: 53px;
-          border-radius: 100px;
-          border: 0.4px solid #00575c;
-          padding-left: 26px;
+          height: 3.681vw;
+          border-radius: 6.944vw;
+          border: 0.028vw solid #00575c;
+          padding-left: 1.806vw;
           input {
-            width: 235px;
-            height: 48px;
+            width: 16.319vw;
+            height: 3.333vw;
             border: none;
             outline: none;
           }
           button {
-            height: 48px;
-            width: 109px;
-            border-radius: 100px;
+            height: 3.333vw;
+            width: 7.569vw;
+            border-radius: 6.944vw;
             border: none;
             color: white;
             background-color: #00575c;
+            font-size: 0.903vw;
           }
         }
       }
     }
     .intro {
-      width: 190px;
+      width: 13.194vw;
       .order {
         width: 100%;
-        height: 182px;
-        margin-bottom: 52px;
+        height: 12.639vw;
+        margin-bottom: 3.611vw;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 25px;
+          margin-bottom: 1.736vw;
         }
         button {
-          width: 138px;
-          height: 35px;
+          width: 9.583vw;
+          height: 2.431vw;
           background-color: #00575c;
           color: white;
           border: none;
-          border-radius: 100px;
-          margin-bottom: 22px;
+          border-radius: 6.944vw;
+          margin-bottom: 1.528vw;
+          font-size: 0.903vw;
         }
         p {
-          font-size: 13px;
+          font-size: 0.903vw;
           font-style: normal;
           font-weight: 500;
-          line-height: 20px;
+          line-height: 1.389vw;
         }
       }
       .about-us {
-        width: 190px;
+        width: 13.194vw;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 22px;
+          margin-bottom: 1.528vw;
         }
         p {
-          font-size: 13px;
-          margin-bottom: 19px;
+          font-size: 0.903vw;
+          margin-bottom: 1.319vw;
         }
       }
     }
     .social {
-      width: 143px;
+      width: 9.931vw;
       .shipping {
         width: 100%;
-        height: 182px;
-        margin-bottom: 52px;
+        height: 12.639vw;
+        margin-bottom: 3.611vw;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
         }
         p {
-          margin-top: 22px;
-          font-size: 13px;
+          margin-top: 1.528vw;
+          font-size: 0.903vw;
         }
       }
       .social-media {
         width: 100%;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 25px;
+          margin-bottom: 1.736vw;
         }
         .icon {
           display: flex;
-          margin-bottom: 23px;
+          margin-bottom: 1.597vw;
           span {
             color: #00575c;
-            margin-right: 21px;
+            margin-right: 1.458vw;
           }
         }
         p {
-          font-size: 13px;
-          margin-bottom: 15px;
+          font-size: 0.903vw;
+          margin-bottom: 1.042vw;
         }
       }
     }
     .outro {
-      width: 170px;
-      height: 398px;
+      width: 11.806vw;
+      height: 27.639vw;
       .shopping-app {
         width: 100%;
-        height: 182px;
-        margin-bottom: 52px;
+        height: 12.639vw;
+        margin-bottom: 3.611vw;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 22px;
+          margin-bottom: 1.528vw;
         }
         p {
           width: 100%;
-          font-size: 13px;
+          font-size: 0.903vw;
           line-height: 20px;
-          margin-bottom: 27px;
+          margin-bottom: 1.875vw;
         }
-        img{
-          width: 132px;
-          height: 54px;
+        img {
+          width: 9.167vw;
+          height: 3.75vw;
         }
       }
       .policies {
         width: 100%;
         h3 {
-          font-size: 18px;
+          font-size: 1.25vw;
           font-weight: 600;
-          margin-bottom: 22px;
+          margin-bottom: 1.528vw;
         }
         p {
-          font-size: 13px;
-          margin-bottom: 19px;
+          font-size: 0.903vw;
+          margin-bottom: 1.319vw;
         }
       }
     }
@@ -178,8 +180,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #00575c;
+    border-top: 0.069vw solid #00575c;
     width: 100%;
-    height: 50px;
+    height: 3.472vw;
+    color: #7a7a7a;
+    font-size: 0.972vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }

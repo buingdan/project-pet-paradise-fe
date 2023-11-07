@@ -5,18 +5,18 @@
     width: 100%;
     height: 100%;
     .nav {
-      padding: 0 100px;
+      padding: 0 6.944vw;
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
-      height: 69px;
+      height: 4.792vw;
       img {
         height: 100%;
       }
       p {
         color: #00575c;
-        font-size: 16px;
+        font-size: 1.111vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -24,7 +24,7 @@
     }
     .content {
       width: 100%;
-      height: 775px;
+      height: 53.819vw;
       position: relative;
       img {
         width: 100%;
@@ -32,35 +32,35 @@
       }
       .form {
         position: absolute;
-        top: 45px;
-        right: 210px;
-        width: 509px;
-        height: 659px;
+        top: 3.125vw;
+        right: 14.583vw;
+        width: 35.347vw;
+        height: 45.764vw;
         background-color: #fff;
-        padding: 42px 50px 68px 50px;
+        padding: 2.917vw 3.472vw 4.722vw 3.472vw;
         >p {
-          font-size: 32px;
+          font-size: 2.222vw;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
-          margin-bottom: 14px;
+          margin-bottom: 0.972vw;
         }
         .signin {
           display: flex;
           justify-content: space-between;
-          height: 19px;
-          width: 260px;
-          margin-bottom: 24px;
+          height: 1.319vw;
+          width: 18.75vw;
+          margin-bottom: 1.667vw;
           p {
             color: #7a7a7a;
-            font-size: 16px;
+            font-size: 1.111vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
           }
           a {
             color: #00575c;
-            font-size: 16px;
+            font-size: 1.111vw;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -68,40 +68,40 @@
         }
         .account {
           width: 100%;
-          height: 46px;
-          margin-bottom: 24px;
-          border-radius: 100px;
-          border: 0.5px solid #7a7a7a;
-          padding-left: 25px;
+          height: 3.194vw;
+          margin-bottom: 1.667vw;
+          border-radius: 6.944vw;
+          border: 0.035vw solid #7a7a7a;
+          padding-left: 1.736vw;
         }
         .next {
           width: 100%;
-          height: 46px;
-          margin-bottom: 33px;
-          border-radius: 100px;
+          height: 3.194vw;
+          margin-bottom: 2.292vw;
+          border-radius: 6.944vw;
           background-color: #00575c;
           border: none;
           color: #fff;
           text-align: center;
-          font-size: 16px;
+          font-size: 1.111vw;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
         }
         .line {
           position: relative;
-          height: 0.5px;
-          border: 0.5px solid #7a7a7a;
-          margin-bottom: 32px;
+          height: 0.035vw;
+          border: 0.035vw solid #7a7a7a;
+          margin-bottom: 2.222vw;
           p {
             position: absolute;
             top: 0;
             left: 50%;
             transform: translate(-50%, -50%);
-            padding: 1px 7px 4px 7px;
+            padding: 0.069vw 0.486vw 0.278vw 0.486vw;
             background-color: #fff;
             color: #7a7a7a;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -111,22 +111,22 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 409px;
-          height: 48px;
-          border-radius: 100px;
-          border: 0.5px solid #7a7a7a;
+          width: 28.403vw;
+          height: 3.333vw;
+          border-radius: 6.944vw;
+          border: 0.035vw solid #7a7a7a;
           background-color: #fff;
-          margin-bottom: 14px;
-          padding: 0 120px;
+          margin-bottom: 0.972vw;
+          padding: 0 8.333vw;
           img {
-            width: 28px;
-            height: 28px;
+            width: 1.944vw;
+            height: 1.944vw;
           }
           p {
-            width: 134px;
-            height: 16px;
+            width: 9.306vw;
+            height: 1.111vw;
             color: #000;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -136,22 +136,22 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 409px;
-          height: 48px;
-          border-radius: 100px;
-          border: 0.5px solid #7a7a7a;
+          width: 28.403vw;
+          height: 3.333vw;
+          border-radius: 6.944vw;
+          border: 0.035vw solid #7a7a7a;
           background-color: #fff;
-          margin-bottom: 14px;
-          padding: 0 115px;
+          margin-bottom: 0.972vw;
+          padding: 0 7.986vw;
           img {
-            width: 24px;
-            height: 24px;
+            width: 1.667vw;
+            height: 1.667vw;
           }
           p {
-            width: 150px;
-            height: 16px;
+            width: 10.417vw;
+            height: 1.111vw;
             color: #000;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -161,22 +161,22 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 409px;
-          height: 48px;
-          border-radius: 100px;
-          border: 0.5px solid #7a7a7a;
+          width: 28.403vw;
+          height: 3.333vw;
+          border-radius: 6.944vw;
+          border: 0.035vw solid #7a7a7a;
           background-color: #fff;
-          padding: 0 127px;
-          margin-bottom: 32px;
+          padding: 0 8.819vw;
+          margin-bottom: 2.222vw;
           img {
-            width: 24px;
-            height: 24px;
+            width: 1.667vw;
+            height: 1.667vw;
           }
           p {
-            width: 125px;
-            height: 16px;
+            width: 11.736vw;
+            height: 1.111vw;
             color: #000;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -184,24 +184,24 @@
         }
         .connect {
           margin: 0 auto    ;
-          width: 280px;
-          height: 32px;
+          width: 19.444vw;
+          height: 2.222vw;
           text-align: center;
           span {
             color: #000;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            margin-right: 5px;
+            margin-right: 0.347vw;
           }
           a {
             color: #00575c;
-            font-size: 14px;
+            font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            margin-right: 5px;
+            margin-right: 0.347vw;
           }
         }
       }
