@@ -1,10 +1,7 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import classes from "./SignUp.module.scss"
 import logo from "../../assets/images/logo.png"
 import bglogin from "../../assets/images/bglogin.png"
-import google from "../../assets/images/google.png"
-import facebook from "../../assets/images/facebook.png"
-import apple from "../../assets/images/apple.png"
 
 function SignUp() {
     return (
@@ -22,23 +19,17 @@ function SignUp() {
                             <p>Tin về Pet Paradise Shop?</p>
                             <a href="#"><Link to="/login">Đăng nhập</Link></a>
                         </div>
-                        <input className={classes["account"]} placeholder="Phone number/ Username/ Email" />
-                        <button className={classes["next"]}>Tiếp tục</button>
-                        <div className={classes["line"]} >
-                            <p>OR</p>
+                        <div className={classes["create-name"]}>
+                            <input className={classes["first-name"]} placeholder="Họ" />
+                            <input className={classes["last-name"]} placeholder="Tên" />
                         </div>
-                        <button className={classes["google"]}>
-                            <img src={google} />
-                            <p>Tiếp tục với Google</p>
-                        </button>
-                        <button className={classes["facebook"]}>
-                            <img src={facebook} />
-                            <p>Tiếp tục với Facebook</p>
-                        </button>
-                        <button className={classes["apple"]}>
-                            <img src={apple} />
-                            <p>Tiếp tục với Apple</p>
-                        </button>
+                        <input className={classes["email"]} placeholder="Địa chỉ email" />
+                        <input className={classes["phone"]} placeholder="Số điện thoại" />
+                        <div className={classes["create-password"]}>
+                            <input className={classes["password"]} placeholder="Mật khẩu" />
+                            <input className={classes["password-auth"]} placeholder="Xác nhận lại mật khẩu" />
+                        </div>
+                        <button className={classes["create-acc"]}>Tạo tài khoản</button>
                         <div className={classes["connect"]}>
                             <span>Bằng cách đăng ký, bạn đồng ý với Pet Paradise's</span>
                             <a href="#">Điều khoản dịch vụ</a>

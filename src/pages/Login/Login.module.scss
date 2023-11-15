@@ -110,97 +110,26 @@
             line-height: normal;
           }
         }
-        .line {
-          position: relative;
-          height: 0.035vw;
-          border: 0.035vw solid #7a7a7a;
-          margin-bottom: 2.222vw;
-          p {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 0.069vw 0.486vw 0.278vw 0.486vw;
-            background-color: #fff;
-            color: #7a7a7a;
-            font-size: 0.972vw;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-          }
-        }
-        .google {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 28.403vw;
-          height: 3.333vw;
-          border-radius: 6.944vw;
-          border: 0.035vw solid #7a7a7a;
-          background-color: #fff;
-          margin-bottom: 0.972vw;
-          padding: 0 8.333vw;
-          img {
-            width: 1.944vw;
-            height: 1.944vw;
-          }
-          p {
-            width: 9.306vw;
-            height: 1.111vw;
+        .connect {
+          margin: 0 auto;
+          width: 19.444vw;
+          height: 2.222vw;
+          text-align: center;
+          span {
             color: #000;
             font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            margin-right: 0.347vw;
           }
-        }
-        .facebook {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 28.403vw;
-          height: 3.333vw;
-          border-radius: 6.944vw;
-          border: 0.035vw solid #7a7a7a;
-          background-color: #fff;
-          margin-bottom: 0.972vw;
-          padding: 0 7.986vw;
-          img {
-            width: 1.667vw;
-            height: 1.667vw;
-          }
-          p {
-            width: 10.417vw;
-            height: 1.111vw;
-            color: #000;
+          a {
+            color: #00575c;
             font-size: 0.972vw;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-          }
-        }
-        .apple {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 28.403vw;
-          height: 3.333vw;
-          border-radius: 6.944vw;
-          border: 0.035vw solid #7a7a7a;
-          background-color: #fff;
-          padding: 0 8.819vw;
-          img {
-            width: 1.667vw;
-            height: 1.667vw;
-          }
-          p {
-            width: 125px;
-            height: 1.111vw;
-            color: #000;
-            font-size: 0.972vw;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
+            margin-right: 0.347vw;
           }
         }
       }

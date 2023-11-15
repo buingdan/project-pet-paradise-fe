@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom';
 import classes from "./Login.module.scss"
 import logo from "../../assets/images/logo.png"
 import bglogin from "../../assets/images/bglogin.png"
-import google from "../../assets/images/google.png"
-import facebook from "../../assets/images/facebook.png"
-import apple from "../../assets/images/apple.png"
 
 function Login() {
     return (
@@ -22,28 +19,19 @@ function Login() {
                             <p>Bạn chưa có tài khoản?</p>
                             <a href="#" ><Link to="/signup">Đăng ký</Link></a>
                         </div>
-                        <input className={classes["account"]} placeholder="Phone number/ Username/ Email" />
-                        <input className={classes["password"]} placeholder="Password" />
+                        <input className={classes["account"]} placeholder="Số điện thoại/ Email" />
+                        <input className={classes["password"]} placeholder="Mật khẩu" />
                         <button className={classes["submit"]}>Đăng nhập</button>
                         <div className={classes["help"]}>
                             <a href="#">Quên mật khẩu?</a>
                             <a href="#">Đăng nhập với số điện thoại</a>
                         </div>
-                        <div className={classes["line"]} >
-                            <p>OR</p>
+                        <div className={classes["connect"]}>
+                            <span>Bằng cách đăng ký, bạn đồng ý với Pet Paradise's</span>
+                            <a href="#">Điều khoản dịch vụ</a>
+                            <span>&</span>
+                            <a href="#">Chính sách bảo mật</a>
                         </div>
-                        <button className={classes["google"]}>
-                            <img src={google} />
-                            <p>Tiếp tục với Google</p>
-                        </button>
-                        <button className={classes["facebook"]}>
-                            <img src={facebook} />
-                            <p>Tiếp tục với Facebook</p>
-                        </button>
-                        <button className={classes["apple"]}>
-                            <img src={apple} />
-                            <p>Tiếp tục với Apple</p>
-                        </button>
                     </div>
                 </div>
             </div>

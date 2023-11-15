@@ -85,7 +85,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -226,7 +226,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -237,7 +237,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -259,7 +259,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -279,7 +279,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -290,7 +290,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -301,7 +301,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -312,7 +312,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
@@ -323,7 +323,7 @@ function Home() {
                             <p>New Petkit Pura MAX</p>
                             <Rate allowHalf defaultValue={2.5} />
                             <div className={classes["price"]}>
-                                <p>20000000</p>
+                                <p>20.000.000</p>
                                 <span>₫</span>
                             </div>
                         </div>
