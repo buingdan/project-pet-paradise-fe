@@ -2,6 +2,7 @@ import { FacebookOutlined, InstagramOutlined, YoutubeOutlined, TwitterOutlined }
 import logo from "../../../../assets/images/logo.png"
 import appstore from "../../../../assets/images/appstore.png"
 import classes from "./Footer.module.scss"
+import { Link } from "react-router-dom";
 function Footer() {
     return (
         <div id={classes["footer"]}>
@@ -16,7 +17,7 @@ function Footer() {
                         <p>Blog mới về thú cưng mỗi tuần!</p>
                         <div className={classes["search"]}>
                             <input placeholder="ĐỊA CHỈ EMAIL CỦA BẠN..." />
-                            <button>ĐĂNG KÝ</button>
+                            <Link to="/signup">ĐĂNG KÝ</Link>
                         </div>
                     </div>
                 </div>
@@ -69,7 +70,7 @@ function Footer() {
                 </div>
             </div>
             <div className={classes["coppyright"]}>
-                <p>Copyright © 2022 The Pet Paradise Shop.
+                <p>Copyright © 2023 The Pet Paradise Shop.
                     All rights reserved</p>
             </div>
         </div>

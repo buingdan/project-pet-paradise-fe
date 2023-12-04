@@ -48,6 +48,9 @@
           color: white;
           background-color: #00575c;
           font-size: 0.903vw;
+          &:hover{
+            background-color: #3e8286;
+          }
         }
       }
       .icon {
@@ -68,10 +71,10 @@
             width: 6.597vw;
             height: 1.736vw;
             background-color: #fff;
-            border-bottom: #000;
+            border-bottom: #00575c;
             padding-left: 0.347vw;
-            &:hover {
-              background-color: #00575c;
+            &:hover a {
+              background-color: #3e8286;
             }
             &:hover a {
               color: #fff;
@@ -96,13 +99,13 @@
           justify-content: flex-end;
           align-items: center;
           position: relative;
-          a {
+          >a {
             width: 100%;
             font-size: 1.042vw;
-            color: black;
+            color: #00575c;
             font-weight: 600;
             &:hover {
-              color: #00575c;
+              color: #3e8286;
             }
           }
           span {
@@ -121,7 +124,7 @@
               border-bottom: #000;
               padding-left: 1.042vw;
               &:hover {
-                background-color: #00575c;
+                background-color: #3e8286;
               }
               &:hover a {
                 color: #fff;
@@ -145,7 +148,7 @@
               border-bottom: #000;
               padding-left: 1.042vw;
               &:hover {
-                background-color: #00575c;
+                background-color: #3e8286;
               }
               &:hover a {
                 color: #fff;
@@ -168,7 +171,7 @@
               border-bottom: #000;
               padding-left: 1.042vw;
               &:hover {
-                background-color: #00575c;
+                background-color: #3e8286;
               }
               &:hover a {
                 color: #fff;
@@ -191,7 +194,7 @@
               border-bottom: #000;
               padding-left: 1.042vw;
               &:hover {
-                background-color: #00575c;
+                background-color: #3e8286;
               }
               &:hover a {
                 color: #fff;

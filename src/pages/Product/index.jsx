@@ -44,7 +44,6 @@ function ProductPage() {
             getItem('HẠT', '25'),
             getItem('PATE', '26'),
             getItem('SỮA', '27'),
-            getItem('THỰC PHẨM CHỨC NĂNG', '28'),
         ]),
         getItem('BALO', '29'),
         getItem('CÁT VỆ SINH', '30'),
@@ -87,7 +86,7 @@ function ProductPage() {
                     </div>
                     <div className={classes["detail"]}>
                         <div className={classes["card-content"]}>
-                            <img src={product} />
+                            <img src="{product} "/>
                             <div className={classes["card-detail"]}>
                                 <p>New Petkit Pura MAX</p>
                                 <Rate allowHalf defaultValue={2.5} />

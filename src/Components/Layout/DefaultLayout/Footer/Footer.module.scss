@@ -50,16 +50,23 @@
             border: none;
             outline: none;
           }
-          button {
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 3.333vw;
             width: 7.569vw;
             border-radius: 6.944vw;
             border: none;
             color: white;
             background-color: #00575c;
-            font-size: 0.903vw;
+            font-size: 0.903vw;     
+          }
+          &:hover a {
+            background-color: #3E8286;
           }
         }
+        
       }
     }
     .intro {
@@ -88,6 +95,9 @@
           font-style: normal;
           font-weight: 500;
           line-height: 1.389vw;
+        }
+        &:hover button {
+          background-color: #3E8286;
         }
       }
       .about-us {

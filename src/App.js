@@ -3,7 +3,7 @@ import { publicRouters } from "./routers";
 import { privateRouters } from "./routers";
 import { DefaultLayout } from "./Components/Layout";
 import { Fragment } from "react";
-
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <Router>
